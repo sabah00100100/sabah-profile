@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2022_04_25_160501) do
     t.date "date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "prompt"
   end
 
 end
