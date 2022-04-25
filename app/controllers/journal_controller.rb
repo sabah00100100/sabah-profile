@@ -1,5 +1,4 @@
 class JournalController < ApplicationController
-  validates :prompt, length: { minimum: 120 }
 
   def show
     @journal = Journal.find(params[:id])
